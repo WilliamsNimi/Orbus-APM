@@ -13,7 +13,7 @@ sampleObjects = {
       "ObjectId": "2bde59d2-3cf3-4ac7-aace-6017ea7f92b4",
       "ModelId": "a25b2257-d8a1-48e1-80ab-96a32bb87f7c",
       "ObjectTypeId": "f92298e9-c6d3-4de4-9e1a-127d0e2266e0",
-      "Name": "Test object name",
+      "Name": "onebank.TransferApi",
       "LockedOn": "2024-08-20T12:29:28.2407448Z",
       "LockedById": "9ffbfa78-da28-4405-b790-79f1042f3276",
       "LockedBy": {
@@ -27,7 +27,7 @@ sampleObjects = {
       "ObjectId": "2bde59d2-3cf3-4ac7-aace-6017ea7f93e5",
       "ModelId": "a25b2257-d8a1-48e1-80ab-96a32bb87f7c",
       "ObjectTypeId": "f92298e9-c6d3-4de4-9e1a-127d0e2266e0",
-      "Name": "Test object name",
+      "Name": "sterling.onboarding.Api",
       "LockedOn": "2024-08-20T12:29:28.2407448Z",
       "LockedById": "9ffbfa78-da28-4405-b790-79f1042f3276",
       "LockedBy": {
@@ -41,7 +41,7 @@ sampleObjects = {
       "ObjectId": "2bde59d2-3cf3-4ac7-aace-6017ea7f94f6",
       "ModelId": "a25b2257-d8a1-48e1-80ab-96a32bb87f7c",
       "ObjectTypeId": "f92298e9-c6d3-4de4-9e1a-127d0e2266e0",
-      "Name": "Test object name",
+      "Name": "sterling.ussd.Api",
       "LockedOn": "2024-08-20T12:29:28.2407448Z",
       "LockedById": "9ffbfa78-da28-4405-b790-79f1042f3276",
       "LockedBy": {
@@ -73,7 +73,7 @@ sampleObjectAttributes = {
 }
 
 metricsObjects = {
-  "vals":
+  "summaries":
   [
     {
   
@@ -96,7 +96,6 @@ metricsObjects = {
 {
   
   "spanCount": "126",
-  "errorSpanCount": "14",
   "series": [
     {
       "key": "resource.service.name",
